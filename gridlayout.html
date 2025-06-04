@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+.gridcontainer{
+    background-color: aqua;
+    width: 100%;
+    height: 1000px;
+    display: grid;
+    grid-template-columns: 150px 1fr 150px;
+    grid-template-rows: 200px 1fr 200px;
+
+}
+
+
+.gridcontainer div{
+    border: 1px solid black;
+    background-color: honeydew;
+} 
+
+.heading{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.footer{
+ grid-row-start:3 ;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+img{
+    width: 100px;
+}
+    </style>
+</head>
+<body>
+  <div class="gridcontainer">
+    <div class="heading">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam odit sed ducimus atque error expedita cupiditate, commodi id, odio deserunt velit! Blanditiis dolorem possimus et nihil itaque, officiis esse amet.</div>
+    <div class=" para">para</div>
+    <div class="para1">para1</div>
+    <div class="para2">para2</div>
+    <div class="footer"><img src="imgg.jpg" alt="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit veniam, culpa repudiandae maxime vero at maiores tempore ipsam nobis dolore sint iusto? Nobis laudantium porro consectetur facilis eligendi, facere dolores.</div>
+  </div>  
+</body>
+</html>

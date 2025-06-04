@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      th,table,td{
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        text-align: center;
+
+      }
+
+      table{
+        width: 100%;
+        height: 300px;
+      } 
+ 
+     tr:nth-child(even){
+background-color: pink;
+color: aliceblue;
+     }
+     tr:nth-child(odd){
+background-color: blueviolet;
+color: aliceblue;
+     } 
+    
+
+     /* tr:hover{
+        background-color: black;
+     } */
+ /* td:hover{
+    background-color: brown;
+    color: aquamarine;
+ } */ 
+  a{
+    text-decoration: none;
+    }
+
+    </style>
+</head>
+<body>
+    <table> 
+
+        <caption>Student Info</caption>
+        <tr>
+      <th>Sr.no.</th>
+       <td>1</td>
+       <td>2</td>
+       <td>3</td>
+    </tr>
+
+       <tr>
+       <th>Name</th>
+       <td>John</td>
+       <td>Som</td>
+       <td>Tom</td>
+    </tr>
+
+
+    <tr>
+        <th>Contact</th>
+        <td>12233</td>
+        <td>1223</td>
+        <td>4322</td>
+     </tr>
+     <tr>
+        <th>website</th>
+        <td><a href="https://www.flipkart.com/?affid=affveve&affExtParam1=202c0d84ec63fd5e3ad868e1706dd9e4&affExtParam2=60827" target="_blank">Flipkart</a></td>
+        <td><a href="https://www.myntra.com/">Myntra</a></td>
+        <td><a href="https://www.nykaafashion.com/">Nykaa</a></td>
+     </tr>
+
+     <tfoot>
+        <tr>
+            <td colspan="4">table footer</td>
+        </tr>
+     </tfoot>
+    </table>  
+
+</body>
+</html>

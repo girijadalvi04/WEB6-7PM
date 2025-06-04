@@ -1,0 +1,85 @@
+inline css - within tag 
+internal css - define it in head section
+external css 
+
+style 
+properties 
+
+css colors 
+RGB (RR 0-255,GG 0-255,BB 0-255) 
+     0-255
+RGBA alpha/lightness/opacity 
+     0.0(full tranparent) 1.0( not tranparent)
+HSL 
+hue degree(hue in degree) from 0-360 
+    0 is red, 120 is green, 340 is blue
+
+saturation is in %
+      0%(shade of grey)
+      100%(full color)
+lightness 
+HSLA 
+
+hexadecimal
+# 
+
+
+ordered list ol li
+unordered list ul li
+nested list 
+definition list  dl,dt,dd   
+
+
+display-
+inline - takes as much as width as required
+doesn't start on new line
+inline block -block
+block
+
+ position-
+fixed 
+sticky 
+static -flow acc to web page default
+relative - 
+absolute -follow its parent 
+
+
+left 
+right 
+top 
+bottom 
+
+
+navbar 
+nav a 
+ul / ol a 
+
+
+animation prop-
+animation name- 
+animation duration-  
+animation timing function-
+linear-constant
+ease in -slow start fast end
+ease out fast start slow end
+ease -default
+ease-in-out slow-fast=-low
+cubic 
+step
+
+animation delay 
+animation iteration count 
+animation direction 
+animation play state
+
+css 
+keyframes 
+
+git init -initialization start
+git branch - main/master
+git push upload laptop to github
+git pull upload github to laptop
+git clone -copy paste
+status - 
+git commit -save
+git add 
